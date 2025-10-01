@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     gap: 0;
     background-color: $theme-color;
+    border-right: 3px solid black;
 }
 .sidebar-nav-link {
     display: block;
