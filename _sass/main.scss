@@ -1,5 +1,9 @@
 $theme-color: #3D5B38;
 
+html {
+    font-size: 20px;
+}
+
 body {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-weight: normal;
@@ -40,7 +44,6 @@ body {
     color: white;
     background-color: $theme-color;
     padding: 10px 15px;
-    font-size: 1.2rem;
     &:hover {
         background-color: lighten($theme-color, 20%);
     }
