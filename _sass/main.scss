@@ -1,12 +1,15 @@
 $theme-color: #3D5B38;
+$darkest-gray: #222222; // headings
+$dark-gray: #333333; // body + borders
+$border-width: 2px;
 
 body {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-weight: normal;
-    color: #333333;
+    color: $dark-gray;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #222222;
+    color: $darkest-gray;
 }
 a {
     color: $theme-color;
@@ -24,14 +27,14 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0;
-    border-right: 3px solid black;
+    border-right: $border-width solid $dark-gray;
     background-color: $theme-color;
     & a { text-decoration: none; }
     @media screen and (max-width: 480px) {
         width: 100vw;
         min-height: auto;
         border-right: none;
-        border-bottom: 3px solid black;
+        border-bottom: $border-width solid $dark-gray;
     }
 }
 .profilepic {
@@ -74,7 +77,7 @@ a {
             background-color: lighten($theme-color, 20%);
         }
     }
-    border-top: 3px solid black;
+    border-top: $border-width solid $dark-gray;
     @media screen and (max-width: 480px) {
         text-align: center;
     }
