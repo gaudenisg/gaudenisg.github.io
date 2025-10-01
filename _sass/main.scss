@@ -13,6 +13,17 @@ body {
     border-right: 3px solid black;
     background-color: $theme-color;
 }
+.profilepic {
+    width: 40px; 
+    border-radius: 50%;
+    display: block;
+}
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
 .sidebar-nav {
     display: flex;
     flex-direction: column;
@@ -24,6 +35,8 @@ body {
     width: 100%;
     color: white;
     background-color: $theme-color;
+    padding: 10px 15px;
+    font-size: 1.2rem;
     &:hover {
         background-color: lighten($theme-color, 20%);
     }
