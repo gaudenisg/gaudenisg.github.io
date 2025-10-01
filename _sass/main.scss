@@ -14,9 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
     margin-bottom: 20px;
-    &:last-of-type {
-        margin-bottom: 0;
-    }
 }
 ul {
     margin-bottom: 20px;
@@ -28,6 +25,7 @@ a {
 .content-container {
     width: 80%;
     padding: 75px;
+    margin-bottom: 75px;
 }
 .sidebar {
     height: 100vh;
