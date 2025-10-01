@@ -3,6 +3,10 @@ $theme-color: #3D5B38;
 body {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-weight: normal;
+    color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222222;
 }
 a {
     color: $theme-color;
@@ -43,9 +47,10 @@ a {
     align-items: center;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: white;
     & h1 { margin-bottom: 0; margin-top: 5px; }
     & h3 { margin-top: 5px; }
-    background-color: white;
 }
 .sidebar-nav {
     display: flex;
@@ -61,6 +66,7 @@ a {
     font-size: 1.2rem;
     &:hover {
         background-color: lighten($theme-color, 15%);
+        color: white;
     }
     &.current {
         background-color: lighten($theme-color, 15%);
