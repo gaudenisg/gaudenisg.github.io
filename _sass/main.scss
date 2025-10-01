@@ -4,14 +4,20 @@ body {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-weight: normal;
 }
-.sidebar-nav {
+.sidebar {
     min-height: 100vh;
     width: 400px;
     display: flex;
     flex-direction: column;
     gap: 0;
-    background-color: $theme-color;
     border-right: 3px solid black;
+    background-color: $theme-color;
+}
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: $theme-color;
 }
 .sidebar-nav-link {
     display: block;
@@ -21,7 +27,7 @@ body {
     &:hover {
         background-color: lighten($theme-color, 20%);
     }
-    & .current {
+    &.current {
         background-color: lighten($theme-color, 20%);
     }
     border-top: 3px solid black;
