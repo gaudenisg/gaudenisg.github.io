@@ -1,12 +1,12 @@
 <div class="sidebar">
 <img src="/assets/images/profilepic.png" alt="Profile picture">
 <ul class="sidebar-nav">
-  <div class="sidebar-nav-link-wrapper">
   {% for item in site.data.navigation %}
+  <div class="sidebar-nav-link-wrapper">
   <li>
     <a href="{{ item.link }}" class="{% if page.url == item.link %}current {% endif %}">{{ item.name }}</a>
   </li>
-  {% endfor %}
   </div>
+  {% endfor %}
 </ul>
 </div>
