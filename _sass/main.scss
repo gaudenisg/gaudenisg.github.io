@@ -38,10 +38,6 @@ a {
         width: 80%;
         padding: 40px 75px;
     }
-    @media screen and (min-width: $md) {
-        overflow: hidden;
-        overflow-y: scroll;
-    }
 }
 .sidebar {
     display: flex;
@@ -136,6 +132,9 @@ a {
     @media screen and (min-width: $md) {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    @media screen and (min-width: $md) {
+        overflow-y: scroll;
     }
 }
 .footer {
