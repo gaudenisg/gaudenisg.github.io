@@ -28,11 +28,13 @@ a {
 }
 .content-container {
     width: 100vw;
+    padding: 0px 30px;
     @media screen and (min-width: $md) {
-        width: 80%;
+        width: 90%;
         padding: 75px 15px;
     }
-    @media screen and (min-width: $lg) {
+    @media screen and (min-width: $xl) {
+        width: 80%;
         padding: 75px;
     }
 }
@@ -80,6 +82,9 @@ a {
     flex-direction: column;
     gap: 0;
     background-color: $theme-color;
+    @media screen and (min-width: $md) {
+        text-align: left;
+    }
 }
 .sidebar-nav-link {
     display: block;
@@ -103,9 +108,6 @@ a {
         border-bottom: $border-width solid $dark-gray;
         margin-bottom: 15px;
     }
-    @media screen and (min-width: $md) {
-        text-align: left;
-    }
 }
 .main-container {
     height: 100vh;
@@ -122,8 +124,6 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 0;
-    padding-left: 20px;
     @media screen and (min-width: $md) {
         overflow: hidden;
         overflow-y: scroll;
