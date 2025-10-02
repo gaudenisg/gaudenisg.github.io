@@ -132,3 +132,14 @@ a {
     margin-left: 15px;
     color: white;
 }
+.img-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    @media screen and (min-width: $md) {
+        flex-direction: column;
+    }
+    & img {
+        width: 100%;
+    }
+}
