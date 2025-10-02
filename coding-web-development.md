@@ -25,7 +25,7 @@ I built this website for a family friend's flower business, New Morning Blooms, 
 Studio Stiklas ("glass" in Lithuanian") is my family member's art studio. I built this website using [Carrd](https://carrd.co), and update it regularly with new artwork.
 
 * ## [Personal Website](/)
-![Screenshot of personal website](/assets/images/studiostiklas-website-screenshot.png)
+![Screenshot of personal website](/assets/images/personalwebsite-screenshot.png)
 I built this website by hand using:
 * [GitHub](https://github.com) and [GitHub Pages](https://docs.github.com/en/pages)
 * [Jekyll](https://jekyllrb.com)
