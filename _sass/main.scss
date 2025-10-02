@@ -2,6 +2,11 @@ $theme-color: #3D5B38;
 $darkest-gray: #222222; // headings
 $dark-gray: #333333; // body + borders
 $border-width: 2px;
+$sm: 40rem;
+$md: 48rem;
+$lg: 64rem;
+$xl: 80rem;
+
 
 body {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -36,7 +41,7 @@ a {
     border-right: $border-width solid $dark-gray;
     background-color: $theme-color;
     & a { text-decoration: none; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: $sm) {
         width: 100vw;
         height: auto;
         border-right: none;
@@ -84,7 +89,7 @@ a {
         }
     }
     border-top: $border-width solid $dark-gray;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: $sm) {
         text-align: center;
     }
 }
@@ -94,7 +99,7 @@ a {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: $sm) {
         flex-direction: column;
         gap: 8px;
     }
@@ -103,9 +108,11 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    overflow-y: scroll;
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: $sm) {
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    @media screen and (max-width: $sm) {
         padding-top: 0;
         padding-left: 20px;
     }
