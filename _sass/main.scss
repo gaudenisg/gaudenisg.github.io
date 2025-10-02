@@ -30,7 +30,7 @@ a {
     width: 100vw;
     @media screen and (min-width: $md) {
         width: 80%;
-        padding: 75px 25px;
+        padding: 75px 15px;
     }
     @media screen and (min-width: $lg) {
         padding: 75px;
@@ -47,10 +47,14 @@ a {
     border-bottom: $border-width solid $dark-gray;
     @media screen and (min-width: $md) {
         height: 100vh;
-        width: 300px;
-        min-width: 300px;
+        width: 200px;
+        min-width: 200px;
         border-right: $border-width solid $dark-gray;
         border-bottom: none;
+    }
+    @media screen and (min-width: $lg) {
+        width: 300px;
+        min-width: 300px;
     }
 }
 .profilepic {
@@ -95,6 +99,10 @@ a {
         }
     }
     border-top: $border-width solid $dark-gray;
+    &:last-of-type {
+        border-bottom: $border-width solid $dark-gray;
+        margin-bottom: 15px;
+    }
     @media screen and (min-width: $md) {
         text-align: left;
     }
