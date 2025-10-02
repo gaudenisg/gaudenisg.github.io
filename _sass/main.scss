@@ -43,7 +43,7 @@ a {
     border-bottom: $border-width solid $dark-gray;
     @media screen and (min-width: $md) {
         height: 100vh;
-        min-width: 300px;
+        width: 300px;
         border-right: $border-width solid $dark-gray;
         border-bottom: none;
     }
