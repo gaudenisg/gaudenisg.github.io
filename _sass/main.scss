@@ -30,6 +30,10 @@ a {
     width: 100vw;
     @media screen and (min-width: $md) {
         width: 80%;
+        padding: 75px 25px;
+    }
+    @media screen and (min-width: $lg) {
+        padding: 75px;
     }
 }
 .sidebar {
@@ -44,6 +48,7 @@ a {
     @media screen and (min-width: $md) {
         height: 100vh;
         width: 300px;
+        min-width: 300px;
         border-right: $border-width solid $dark-gray;
         border-bottom: none;
     }
@@ -114,11 +119,9 @@ a {
     @media screen and (min-width: $md) {
         overflow: hidden;
         overflow-y: scroll;
-        padding: 75px;
     }
 }
 .footer {
-    margin-top: 100%;
     margin-right: 15px;
     margin-left: 15px;
     color: white;
