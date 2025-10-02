@@ -7,7 +7,6 @@ $md: 48rem;
 $lg: 64rem;
 $xl: 80rem;
 
-
 body {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-weight: normal;
@@ -28,24 +27,25 @@ a {
     &:hover { color: lighten($theme-color, 15%); }
 }
 .content-container {
-    width: 80%;
-    padding: 75px;
-    margin-bottom: 75px;
+    width: 100vw;
+    @media screen and (min-width: $md) {
+        width: 80%;
+    }
 }
 .sidebar {
-    height: 100vh;
-    min-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 0;
-    border-right: $border-width solid $dark-gray;
     background-color: $theme-color;
     & a { text-decoration: none; }
-    @media screen and (max-width: $sm) {
-        width: 100vw;
-        height: auto;
-        border-right: none;
-        border-bottom: $border-width solid $dark-gray;
+    width: 100vw;
+    border-right: none;
+    border-bottom: $border-width solid $dark-gray;
+    @media screen and (min-width: $md) {
+        height: 100vh;
+        min-width: 300px;
+        border-right: $border-width solid $dark-gray;
+        border-bottom: none;
     }
 }
 .profilepic {
@@ -78,6 +78,7 @@ a {
     background-color: $theme-color;
     padding: 10px 15px;
     font-size: 1.2rem;
+    text-align: center;
     &:hover {
         background-color: lighten($theme-color, 15%);
         color: white;
@@ -89,32 +90,31 @@ a {
         }
     }
     border-top: $border-width solid $dark-gray;
-    @media screen and (max-width: $sm) {
-        text-align: center;
+    @media screen and (min-width: $md) {
+        text-align: left;
     }
 }
 .main-container {
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    @media screen and (max-width: $sm) {
-        flex-direction: column;
-        gap: 8px;
+    flex-direction: column;
+    gap: 8px;
+    @media screen and (min-width: $md) {
+        flex-direction: row;
+        gap: 30px;
     }
 }
 .content-container-container {
     width: 100%;
     display: flex;
     justify-content: center;
-    @media screen and (min-width: $sm) {
+    padding-top: 0;
+    padding-left: 20px;
+    @media screen and (min-width: $md) {
         overflow: hidden;
         overflow-y: scroll;
-    }
-    @media screen and (max-width: $sm) {
-        padding-top: 0;
-        padding-left: 20px;
+        padding: 75px;
     }
 }
 .footer {
