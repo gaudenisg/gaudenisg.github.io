@@ -9,14 +9,12 @@
     <title>{{ page.title }} &dash; {{ site.title }}</title>
 </head>
 <body>
-    <!-- <div class="main-container"> -->
-        {% include sidebar.html %}
-        <div class="content-container-container">
-            <div class="content-container">
-                {% if page.title != "Home"%}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
-                {{ content }}
-            </div>
+    {% include sidebar.html %}
+    <div class="content-container-container">
+        <div class="content-container">
+            {% if page.title != "Home"%}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+            {{ content }}
         </div>
-    <!-- </div> -->
+    </div>
 </body>
 </html>
