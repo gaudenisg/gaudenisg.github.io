@@ -3,7 +3,7 @@ title: Coding/Web Development
 layout: default
 ---
 
-I've been coding since 2015 (almost half my life), with a focus on web development, including website hosting. I post some small projects on [my Codepen profile](https://codepen.io/gaudenisg).
+I've been coding for almost half my life, with a focus on web development, including website hosting. I post some small projects on [my Codepen profile](https://codepen.io/gaudenisg).
 
 In addition, I've built several websites, listed below. 
 
