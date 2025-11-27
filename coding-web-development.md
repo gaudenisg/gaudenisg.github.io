@@ -3,11 +3,12 @@ title: Coding/Web Development
 layout: default
 ---
 
-<div class="cwd-page">
 I've been coding since I was 7, with a focus on web development, including website hosting. I post some small projects on [my Codepen profile](https://codepen.io/gaudenisg).
 
 In addition, I've built several websites, listed below. 
 
+<div class="cwd-images">
+ 
 * ## [Fabula Nebulae](https://fabulanebulae.com)
 ![Screenshot of Fabula Nebulae website](/assets/images/fabulanebulae-website-screenshot.png)
 Fabula Nebulae is my family's small business. The website was originally built in 2015; by 2025, it was in need of a refresh. I built a new version of the website using:
@@ -35,7 +36,8 @@ I built this website by hand using:
   * CSS (SCSS)
   * A sprinkling of JavaScript
 
+</div>
+
 ---
 
 There you have it! I'm always thinking about projects I can create, and problems I can solve, using the coding knowledge I have and the tools that are available.
-</div>
