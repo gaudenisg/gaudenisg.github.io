@@ -15,6 +15,7 @@ Fabula Nebulae is my family's small business. The website was originally built i
   * HTML
   * CSS
   * JavaScript
+  * Plugins and apps
 
 * ## [New Morning Blooms](https://newmorningblooms.com)
 ![Screenshot of New Morning Blooms website](/assets/images/newmorningblooms-website-screenshot.png#cwd-img)
