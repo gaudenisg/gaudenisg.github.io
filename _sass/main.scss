@@ -60,7 +60,6 @@ a {
 .profilepic {
     width: 80px; 
     display: block;
-    box-shadow: none;
 }
 .sidebar-top {
     display: flex;
@@ -129,7 +128,7 @@ a {
     margin-left: 15px;
     color: white;
 }
-.cwd-images-identifier ~ img {
+img[src$="#cwd-img"] {
     box-shadow: 0px 0px 15px -3px rgba(51,51,51,0.2);
     margin-bottom: 30px;
 }
