@@ -32,7 +32,7 @@ Here are just a few of my photos:
   </div>
 
   <div class="mItem">
-    <img src="[https://images.unsplash.com/photo-1648644043876-2d45f97f4eec](https://images.unsplash.com/photo-1638126200367-38f7338a784b)" alt="Snow on Red Sled">
+    <img src="https://images.unsplash.com/photo-1638126200367-38f7338a784b" alt="Snow on Red Sled">
   </div>
 
   <div class="mItem">
