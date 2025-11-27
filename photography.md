@@ -6,6 +6,7 @@ I've been interested in photography for years. I have a lot yet to learn, and I 
 
 Here are just a few of my photos:
 
+<!-- Masonry layout from https://codepen.io/CyFox/pen/MWWEwjg :) -->
 <div class="masonry">
   <div class="mItem">
     <img src="https://images.unsplash.com/photo-1664805138364-5df293ba5a45" alt="Dewy Spiderweb">
