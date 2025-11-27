@@ -7,7 +7,7 @@ I've been coding since I was 7, with a focus on web development, including websi
 
 In addition, I've built several websites, listed below. 
 
-<div class="cwd-images">
+<span class="cwd-images-identifier"></span>
  
 * ## [Fabula Nebulae](https://fabulanebulae.com)
 ![Screenshot of Fabula Nebulae website](/assets/images/fabulanebulae-website-screenshot.png)
@@ -35,8 +35,6 @@ I built this website by hand using:
   * HTML
   * CSS (SCSS)
   * A sprinkling of JavaScript
-
-</div>
 
 ---
 
