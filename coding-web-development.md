@@ -33,7 +33,7 @@ I built this website by hand using:
   * Liquid
   * HTML
   * CSS (SCSS)
-  * A sprinkling of JavaScript
+  * A bit of JavaScript
 
 ---
 
