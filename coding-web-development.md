@@ -29,7 +29,7 @@ Studio Stiklas ("glass" in Lithuanian) is my family member's art studio. I built
 ![Screenshot of personal website](/assets/images/personalwebsite-screenshot.png#cwd-img)
 I built this website by hand using:
   * [GitHub](https://github.com) and [GitHub Pages](https://docs.github.com/en/pages)
-  * [Jekyll](https://jekyllrb.com)
+  * [Jekyll](https://jekyllrb.com) and Markdown
   * Liquid
   * HTML
   * CSS (SCSS)
