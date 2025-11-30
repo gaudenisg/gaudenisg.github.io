@@ -80,11 +80,15 @@ a {
     width: 100%;
     align-items: center;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: white;
     font-size: 0.8rem;
     & h1, & h3 { margin-bottom: 0; margin-top: 5px; }
+	@media screen and (min-width: $md) {
+		padding-top: 25px;
+    	padding-bottom: 25px;
+	}
     @media screen and (min-width: $lg) {
         font-size: 1rem;
     }
@@ -108,7 +112,7 @@ a {
 	border-top: $border-width solid $dark-gray;
     &:last-of-type {
         border-bottom: $border-width solid $dark-gray;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 	&:hover {
         background-color: lighten($theme-color, 15%);
@@ -122,11 +126,15 @@ a {
     }
 	@media screen and (min-width: $md) {
         padding: 10px 15px;
+		&:last-of-type {
+			margin-bottom: 15px;
+		}
     }
 }
 .footer {
     margin-right: 15px;
     margin-left: 15px;
+	margin-bottom: 0;
     color: white;
 }
 img[src$="#cwd-img"] {
