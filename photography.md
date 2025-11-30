@@ -25,7 +25,7 @@ Here are just a few of my photos:
   </div>
 
   <div class="mItem">
-    <img src="/assets/images/photography/dog-pawprints-in-show.jpg" alt="Dog Pawprints in Snow">
+    <img src="/assets/images/photography/dog-pawprints-in-snow.jpg" alt="Dog Pawprints in Snow">
   </div>
 
   <div class="mItem">
