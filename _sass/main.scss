@@ -103,9 +103,14 @@ a {
     display: block;
     color: white;
     background-color: $theme-color;
-    padding: 10px 15px;
+    padding: 5px 15px;
     font-size: 1.2rem;
-    &:hover {
+	border-top: $border-width solid $dark-gray;
+    &:last-of-type {
+        border-bottom: $border-width solid $dark-gray;
+        margin-bottom: 15px;
+    }
+	&:hover {
         background-color: lighten($theme-color, 15%);
         color: white;
     }
@@ -115,10 +120,8 @@ a {
             background-color: lighten($theme-color, 20%);
         }
     }
-    border-top: $border-width solid $dark-gray;
-    &:last-of-type {
-        border-bottom: $border-width solid $dark-gray;
-        margin-bottom: 15px;
+	@media screen and (min-width: $md) {
+        padding: 10px 15px;
     }
 }
 .footer {
