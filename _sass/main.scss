@@ -23,6 +23,19 @@ a {
     color: $theme-color;
     &:hover { color: lighten($theme-color, 15%); }
 }
+.content-container-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    @media screen and (min-width: $md) {
+        padding: 25px 0px;
+        margin-left: 200px;
+    }
+    @media screen and (min-width: $lg) {
+		padding: 40px 0px;
+        margin-left: 300px;
+    }
+}
 .content-container {
     width: 100%;
     padding: 20px 30px;
@@ -106,19 +119,6 @@ a {
     &:last-of-type {
         border-bottom: $border-width solid $dark-gray;
         margin-bottom: 15px;
-    }
-}
-.content-container-container {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    @media screen and (min-width: $md) {
-        padding: 25px 0px;
-        margin-left: 200px;
-    }
-    @media screen and (min-width: $lg) {
-		padding: 40px 0px;
-        margin-left: 300px;
     }
 }
 .footer {
