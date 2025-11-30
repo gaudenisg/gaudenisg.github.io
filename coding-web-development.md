@@ -10,12 +10,12 @@ In addition, I've built several websites, listed below.
 * ## [Fabula Nebulae](https://fabulanebulae.com)
 [![Screenshot of Fabula Nebulae website](/assets/images/website-screenshots/fabula-nebulae.png#cwd-img)](https://fabulanebulae.com)
 Fabula Nebulae is my family's small business. The website was originally built in 2015; by 2025, it was in need of a refresh. I built a new version of the website using:
- * [Shopify](https://shopify.com)
- * Liquid
- * HTML
- * CSS
- * JavaScript
- * Plugins and apps
+  * [Shopify](https://shopify.com)
+  * Liquid
+  * HTML
+  * CSS
+  * JavaScript
+  * Plugins and apps
 
 * ## [New Morning Blooms](https://newmorningblooms.com)
 [![Screenshot of New Morning Blooms website](/assets/images/website-screenshots/new-morning-blooms.png#cwd-img)](https://newmorningblooms.com)
